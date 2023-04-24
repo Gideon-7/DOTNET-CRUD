@@ -10,6 +10,7 @@ namespace dotnet_rpg.Services.CharacterService
         public AutoMapperProfile()
         {
             CreateMap<Character, GetCharacterDto>();
+            CreateMap<AddCharacterDto, Character>();
         }
     }
 }
